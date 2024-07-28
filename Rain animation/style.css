@@ -1,0 +1,21 @@
+body{
+    background-color: rgba(0, 0, 0, 100%);
+    height: 100vh;
+    overflow: hidden;
+}
+
+i{
+    animation: fall linear forwards;
+    color: white;
+    position: absolute;
+    top: -20px;
+}
+
+
+
+@keyframes fall {
+
+    to{
+        transform: translateY(105vh);
+    }
+}
