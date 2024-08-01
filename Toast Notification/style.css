@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+position: absolute;
+right: 20px;
+bottom: 20px;
+}
+
+.btn{
+    max-width: 500px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #9396d2;
+    border-radius: 8px;
+}
+
+.noti{
+    padding: 10px 15px;
+    margin: 10px 0;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    border-radius: 5px;
+}
